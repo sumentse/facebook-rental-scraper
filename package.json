@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:server": "nodemon --watch build --exec \"node build/bundle.js\"",
+    "dev:build-server": "webpack --config webpack.server.js --watch"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "concurrently": "^3.6.1",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^6.0.0",
+    "jsonexport": "^2.3.0",
+    "lodash": "^4.17.10",
+    "node-notifier": "^5.2.1",
+    "nodemon": "^1.18.3",
+    "npm-run-all": "^4.1.3",
+    "progress": "^2.0.0",
+    "puppeteer": "^1.8.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "normalizr": "^3.2.4"
+  }
+}
