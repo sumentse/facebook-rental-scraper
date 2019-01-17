@@ -1,5 +1,5 @@
 # Facebook Market Scraper
-This node.js program will scrape through facebook market place for rental places and save it as a csv file. 
+This node.js program will scrape through facebook market place for rental places and save it as a csv or json file. 
 
 
 ## Installing
