@@ -12,7 +12,7 @@ or
 npm install
 ```
 
-## Running the boilerplate
+## Running
 This will monitor the node.js application and build a bundle file
 ```
     yarn run dev
